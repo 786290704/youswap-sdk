@@ -1,23 +1,23 @@
 import JSBI from 'jsbi';
 export declare type BigintIsh = JSBI | bigint | string;
 export declare enum ChainId {
-    MAINNET = 1,
-    ROPSTEN = 3,
-    RINKEBY = 4,
-    GÖRLI = 5,
-    KOVAN = 42,
-    HECO = 128,
+  MAINNET = 1,
+  ROPSTEN = 3,
+  RINKEBY = 4,
+  GÖRLI = 5,
+  KOVAN = 42,
+  HECO = 128,
 }
 export declare enum TradeType {
-    EXACT_INPUT = 0,
-    EXACT_OUTPUT = 1
+  EXACT_INPUT = 0,
+  EXACT_OUTPUT = 1
 }
 export declare enum Rounding {
-    ROUND_DOWN = 0,
-    ROUND_HALF_UP = 1,
-    ROUND_UP = 2
+  ROUND_DOWN = 0,
+  ROUND_HALF_UP = 1,
+  ROUND_UP = 2
 }
-export declare const FACTORY_ADDRESS = "0xc4f83fc9559130733989aB9909A7d36E480Da54f";
+export declare const FACTORY_ADDRESS = "0xDB451360cF46e6E4FA4ec688e88FE032ec9Bc671";
 export declare const INIT_CODE_HASH = "0x9eb9da4217e5734fc89b94c77e32f1344cf6da4f460fda767f2cf057d0660939";
 export declare const MINIMUM_LIQUIDITY: JSBI;
 export declare const ZERO: JSBI;
@@ -30,10 +30,10 @@ export declare const _100: JSBI;
 export declare const _997: JSBI;
 export declare const _1000: JSBI;
 export declare enum SolidityType {
-    uint8 = "uint8",
-    uint256 = "uint256"
+  uint8 = "uint8",
+  uint256 = "uint256"
 }
 export declare const SOLIDITY_TYPE_MAXIMA: {
-    uint8: JSBI;
-    uint256: JSBI;
+  uint8: JSBI;
+  uint256: JSBI;
 };
